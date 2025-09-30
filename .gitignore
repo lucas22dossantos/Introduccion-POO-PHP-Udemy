@@ -1,0 +1,22 @@
+# Ignorar dependencias instaladas por Composer
+/vendor/
+
+# Archivos de configuración del entorno
+.env
+
+# Cachés y logs
+*.log
+*.cache
+
+# Archivos temporales del sistema
+.DS_Store
+Thumbs.db
+
+# Archivos de editor/IDE
+.vscode/
+.idea/
+
+# Archivos de PHPUnit u otros tests
+phpunit.xml
+phpunit.xml.dist
+coverage/
